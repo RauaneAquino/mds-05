@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Doação</title>
+</head>
+<body>
+    <h2>Formulário de Doação</h2>
+    <form action="#" method="post">
+        <label for="valor">Valor da doação: </label>
+        <input type="number" min="0.00" step="0.01"  id="valor" name="valor" required >
+        <br><br>
+
+        <label for="pagamento">Forma de Pagamento</label>
+        <select name="pagamento" id="pagamento" required>
+            <option value=""></option>
+            <option value="dinheiro">Dinheiro</option>
+            <option value="pix">Pix</option>
+            <option value="débito">Débito</option>
+        </select>
+        <br><br>
+
+        <!-- <label for="pagamento">Forma de Pagamento:</label>
+        <br>
+
+        <label for="dinheiro">Dinheiro</label>
+        <input type="radio" name="pagamento" id="dinheiro" value="dinheiro" required>
+        <br>
+
+        <label for="pix">PIX</label>
+        <input type="radio" name="pagamento" id="pix" value="pix" required>
+        <br>
+
+        <label for="debito">Débito</label>
+        <input type="radio" name="pagamento" id="debito" value="debito" required>
+        <br><br> -->
+
+        <button type="submit" t>Enviar</button>
+        <button type="reset">Cancelar</button>
+        
+    </form>
+</body>
+</html>
